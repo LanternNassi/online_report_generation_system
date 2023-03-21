@@ -88,7 +88,7 @@ export const File_upload = (props) => {
     const upload = (form_data) => {
         axios({
             method : 'POST',
-            url : 'http://localhost:8000/Upload_reports',
+            url : 'https://m-r-s-api.onrender.com/Upload_reports',
             onUploadProgress : (e) => {
                 setuploaded_size(e.progress)
             },
@@ -110,7 +110,7 @@ export const File_upload = (props) => {
     const upload_other_docs = (form_data) => {
         axios({
             method : 'POST',
-            url : 'http://localhost:8000/Upload_extra_docs',
+            url : 'https://m-r-s-api.onrender.com/Upload_extra_docs',
             onUploadProgress : (e) => {
                 setuploaded_size(e.progress)
             },
@@ -131,7 +131,7 @@ export const File_upload = (props) => {
         axios({
             method : 'POST',
             data:form_data,
-            url : 'http://localhost:8000/UploadSpecificFiles',
+            url : 'https://m-r-s-api.onrender.com/UploadSpecificFiles',
             headers : {
                 'content-type' : 'multipart/form-data',
             }

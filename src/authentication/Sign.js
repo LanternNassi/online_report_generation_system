@@ -69,7 +69,7 @@ export const Sign = (props) => {
     }
     const upload = (info) => {
         axios({
-            url : 'http://127.0.0.1:8000/create-user',
+            url : 'https://m-r-s-api.onrender.com/create-user',
             method : 'POST',
             data : {...info},
             headers : { 
@@ -85,7 +85,7 @@ export const Sign = (props) => {
     const Sign_in = () => {
         axios({
             method : 'POST',
-            url : 'http://127.0.0.1:8000/Sign_in/',
+            url : 'https://m-r-s-api.onrender.com/Sign_in/',
             data : {Passcode : document.getElementById('Passcode').value},
             // data : {}
 
