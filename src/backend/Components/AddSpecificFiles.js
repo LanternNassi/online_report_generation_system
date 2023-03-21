@@ -57,7 +57,7 @@ export const AddSpecificFiles = (props) => {
         axios({
             method : "GET",
             data : {},
-            url : 'http://localhost:8000/GetStudents/' + assessment_id + '/'
+            url : 'https://m-r-s-api.onrender.com/GetStudents/' + assessment_id + '/'
         }).then((response)=>{
             if (response.status == 200){
                 console.log(response.data)

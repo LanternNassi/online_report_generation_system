@@ -72,7 +72,7 @@ export const Add_assessment = (props) => {
         // })
         axios({
             method : 'POST',
-            url : 'http://localhost:8000/Create_assessment',
+            url : 'https://m-r-s-api.onrender.com/Create_assessment',
             // onUploadProgress : (e) => {
             //     setuploaded_size(e.progress)
             // },

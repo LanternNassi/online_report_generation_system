@@ -191,7 +191,7 @@ export const Class_assessment = (props) => {
       const getSpecificDocuments = (name) => {
         axios({
             method : 'GET',
-            url : 'http://localhost:8000/GetStudentSpecificFiles/' + active_assessment.id + '/' + name + '/' ,
+            url : 'https://m-r-s-api.onrender.com/GetStudentSpecificFiles/' + active_assessment.id + '/' + name + '/' ,
             data : {}
         }).then((Response)=>{
             if (Response.status == 200){
@@ -243,7 +243,7 @@ export const Class_assessment = (props) => {
     const fetch_assessments = (id , Class) => {
         axios({
             method : 'GET',
-            url : 'http://localhost:8000/Assessment/' + id + '/' + Class + '/',
+            url : 'https://m-r-s-api.onrender.com/Assessment/' + id + '/' + Class + '/',
             // onUploadProgress : (e) => {
             //     setuploaded_size(e.progress)
             // },
@@ -269,7 +269,7 @@ export const Class_assessment = (props) => {
     const fetch_reports = (id) => {
         axios({
             method : 'GET',
-            url : 'http://localhost:8000/GetReports/' + id + '/',
+            url : 'https://m-r-s-api.onrender.com/GetReports/' + id + '/',
             data : {
                 
             },
@@ -312,7 +312,7 @@ export const Class_assessment = (props) => {
     const deleteAssessment = (id) => {
         axios({
             method : 'GET',
-            url : 'http://localhost:8000/DeleteAssessment/' + id + '/',
+            url : 'https://m-r-s-api.onrender.com/DeleteAssessment/' + id + '/',
             data : {},
             headers : { 
                 'content-type' : 'application/json',                
