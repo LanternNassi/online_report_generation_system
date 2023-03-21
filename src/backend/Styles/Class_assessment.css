@@ -1,0 +1,43 @@
+.assessment-objects {
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height : 30vh;
+    width : 70vw;
+}
+
+.tab-view {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height : 50vh;
+    width : 100vw;
+
+}
+
+.Actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height : 50vh;
+    width : 20vw;
+}
+
+.Data-preview {
+    display: flex;
+    flex-direction: column;
+    height : 70vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ass-card {
+    /* background-color: black; */
+    color : #FFD700;
+    /* background-image: linear-gradient(to bottom right, #1B1212, #e6ecec); */
+}

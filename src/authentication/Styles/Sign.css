@@ -1,0 +1,52 @@
+.components {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+
+    width: 50vw;
+}
+ .form-field-Name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 5vh;
+ }
+
+ .Inquire {
+     display : flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     height : 10vh;
+     width : 30vw;
+ }
+
+ .Inquire-setup {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     height : 20vh;
+     width : 30vw;
+ }
+
+.container {
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width : 55vw
+}
+
+.Dashboard_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width : 30vw;
+    height : 20vh
+}

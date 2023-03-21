@@ -1,0 +1,40 @@
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height : 70vh;
+    width : 60vh;
+}
+
+.form-field {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width : 50vh;
+    height : 7vh;
+}
+
+.auto-comp {
+    width: 27.5vh;
+}
+
+.paper-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height : 2vh;
+    width : 23vh;
+}
+
+.paper-chips {
+    display: flex;
+    flex-direction: row;
+    height : 15vh;
+    width : 50vh;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}

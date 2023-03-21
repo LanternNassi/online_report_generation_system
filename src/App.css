@@ -2,9 +2,18 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.slider-demo .p-slider-horizontal, .slider-demo .p-inputtext {
+  width: 14rem;
+}
+
+.slider-demo .p-slider-vertical {
+  height: 14rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,6 +36,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

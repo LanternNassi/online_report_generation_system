@@ -1,0 +1,76 @@
+.pic {
+
+    height : 100vh;
+    width : 100vw;
+}
+
+.opacitor {
+    position: absolute;
+    height : 100vh;
+    width : 100vw;
+    background-color: black;
+    opacity: 0.7;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 992px){
+    .intro {
+        height : 55vh;
+        width : 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .button {
+        width : 30vw;
+        height : 8vh;
+        border-radius: 4vh;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    .intro {
+        height : 40vh;
+        width : 85vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: red; */
+    }
+
+    .text-header {
+        font-size: large;
+        color : white;
+    }
+
+    .text-sub {
+        font-size: smaller;
+        color : white;
+    }
+
+    .button {
+        width : 50vw;
+        height : 8vh;
+        border-radius: 4vh;
+    }
+    
+}
+
+.buttons {
+    height : 20vh;
+    width : 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+

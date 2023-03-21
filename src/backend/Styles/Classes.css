@@ -1,0 +1,22 @@
+.class-cards {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height : 90vh;
+    width : 80vw;
+    flex-wrap: wrap;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    height : 5vh;
+    width : 28vw;
+}
+
+.Class-Card {
+    background-image: linear-gradient(to bottom right, #7F7FD5, #91EAE4);
+}

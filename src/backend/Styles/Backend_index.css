@@ -1,0 +1,17 @@
+.overall-divisions {
+    display : flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 90vh;
+    width : 97vw;    
+
+}
+
+.bg {
+    background-image: linear-gradient(to top left, #a3a3d4, #c8e6e4);
+}
+
+.banner {
+    background-image: linear-gradient(to left, #7F7FD5, #91EAE4);
+}

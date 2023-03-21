@@ -1,0 +1,31 @@
+.overlay-pop {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.components {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 55vh;
+    width: 50vw;
+}
+.form-field-Name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 20vh;
+}
+.Upload-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height : 40vh;
+    width : 50vw;
+}

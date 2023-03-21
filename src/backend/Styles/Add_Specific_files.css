@@ -1,0 +1,51 @@
+.footer {
+    width : 50vw;
+    height : 20vh;
+    display: flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+.actions {
+    width : 45vw;
+    height : 8vh;
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Names {
+    height : 15vh;
+    width : 45vw;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.tags {
+    height : 35vh;
+    width : 50vw;
+    display: flex;
+    border: 0.5px solid black;
+    justify-content : space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.auto-comp {
+    width : 25vw;
+
+}
+
+.Upload {
+    width : 50vw;
+    height : 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
